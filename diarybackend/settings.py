@@ -82,7 +82,7 @@ import os
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://diarydb_ehmb_user:ogcF6FTC1hfN3ClXEAdKYqrnhvqyKTVn@dpg-d1qjels9c44c739m6aog-a.oregon-postgres.render.com/diarydb_ehmb', 
+        default='postgresql://diarydb_ehmb_user:ogcF6FTC1hfN3ClXEAdKYqrnhvqyKTVn@dpg-d1qjels9c44c739m6aog-a/diarydb_ehmb', 
         conn_max_age=600,  # optional for performance
         ssl_require=True
     )
